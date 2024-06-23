@@ -153,7 +153,7 @@ public class CalcularMontoCompuesto extends javax.swing.JPanel {
           
           
                // Formatear el resultado a dos decimales
-            DecimalFormat df = new DecimalFormat("#.00");
+           DecimalFormat df = new DecimalFormat("#.00");
             String montoFormateado = df.format(monto);
 
             // Mostrar el resultado formateado en el campo de texto correspondiente

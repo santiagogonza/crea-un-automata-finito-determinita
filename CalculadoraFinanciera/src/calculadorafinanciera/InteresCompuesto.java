@@ -182,7 +182,7 @@ public class InteresCompuesto extends javax.swing.JFrame {
         // TODO add your handling code here:
            // TODO add your handling code here:
         JFrame frame = new JFrame("Información de Tiempo Compuesto");
-        frame.setContentPane(new CalcularTasaInteresCompuesto());
+        frame.setContentPane(new CalcularTiempoCompuesto());
         frame.pack();
         frame.setVisible(true);
         

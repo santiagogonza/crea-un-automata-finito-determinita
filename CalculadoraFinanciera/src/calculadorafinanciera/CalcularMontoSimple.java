@@ -143,19 +143,17 @@ public class CalcularMontoSimple extends javax.swing.JPanel {
             // Calcular el monto compuesto usando la fórmula del interés simple
             double monto = capital *(1 + tasaInteres* tiempo);
           
-           // Calcular el monto compuesto usando la fórmula del interés compuesto
-            //  double monto = capital * Math.pow((1 + tasaInteres), tiempo);
-            
+         
             
           
           
                // Formatear el resultado a dos decimales
-            DecimalFormat df = new DecimalFormat("#.00");
-            String montoFormateado = df.format(monto);
+             DecimalFormat df = new DecimalFormat("#.00");
+             String montoFormateado = df.format(monto);
 
             // Mostrar el resultado formateado en el campo de texto correspondiente
-            jTextResultado.setText(montoFormateado);
-        
+             jTextResultado.setText(montoFormateado);
+       
     }//GEN-LAST:event_btnCalcularMouseClicked
 
 

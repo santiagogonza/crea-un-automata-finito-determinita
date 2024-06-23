@@ -139,12 +139,12 @@ public class CalcularTasaInteresCompuesto extends javax.swing.JPanel {
   
   //formula para calcular tasa de interes compuesto
  
-    double tasaInteres = Math.pow(monto / capital, 1.0 / tiempo) - 1;
+   double tasaInteres = Math.pow(monto / capital, 1.0 / tiempo) - 1;
   
     
     // Mostrar el resultado del interés en el campo de texto correspondiente
-   // jTextResultado.setText(String.format("%.4f", interes)); // Formatear a 2 decimales
    jTextResultado.setText(String.format("%.4f", tasaInteres)); // Formatear a 2 decimales
+  // jTextResultado.setText(String.format("%.4f", tasaInteres)); // Formatear a 2 decimales
 
     }//GEN-LAST:event_btnCalcularMouseClicked
 
