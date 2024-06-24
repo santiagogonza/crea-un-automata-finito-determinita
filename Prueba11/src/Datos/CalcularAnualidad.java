@@ -121,8 +121,6 @@ public class CalcularAnualidad extends javax.swing.JPanel {
         double tiempo = Double.parseDouble(jTexTiempo.getText());
         double tasaInteres = Double.parseDouble(jTexInteres.getText());
 
-
-
         // Calcular el valor de la anualidad usando la fórmula
         double anualidad = vp / ((1 - Math.pow(1 + tasaInteres, -tiempo)) / tasaInteres);
 
@@ -132,11 +130,7 @@ public class CalcularAnualidad extends javax.swing.JPanel {
     }//GEN-LAST:event_btnCalcularActionPerformed
 
     private void btnCancelarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCancelarActionPerformed
-        // TODO add your handling code here:
-         jTexvp.setText("");
-        jTexTiempo.setText("");
-        jTexInteres.setText("");
-        jTexResultado.setText("");
+
     }//GEN-LAST:event_btnCancelarActionPerformed
 
 

@@ -133,7 +133,7 @@ public class CalcularMontoSimple extends javax.swing.JPanel {
     }//GEN-LAST:event_jTextInteresActionPerformed
 
     private void btnCalcularMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnCalcularMouseClicked
-        // TODO add your handling code here:
+     
         // action del boton calcular monto simple
        
         
